@@ -19,8 +19,5 @@ module.exports = {
     .addField("Answer", replies[result]);
 
     message.channel.send(ballembed);
-}
-
-module.exports.help = {
-    name: "8ball"
+    }
 }
